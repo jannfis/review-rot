@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:03:06.469200038Z",
+  "generated_at": "2026-09-16T16:01:13.821409879Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -190,7 +190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-16T06:40:06Z",
+      "updated_at": "2026-09-16T11:43:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -200,30 +200,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": [
-        "approved"
-      ]
-    },
-    {
-      "title": "Added E2E for role ownership validation",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-      "number": 1209,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "alkakumari016",
-        "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
-      },
-      "created_at": "2026-07-09T11:31:36Z",
-      "updated_at": "2026-09-11T11:05:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
       "labels": [
         "approved"
       ]
@@ -262,7 +238,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-08T21:31:05Z",
+      "updated_at": "2026-09-16T12:08:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -286,7 +262,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-09T16:44:05Z",
+      "updated_at": "2026-09-16T09:47:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -335,16 +311,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-09-07T10:43:51Z",
+      "updated_at": "2026-09-16T10:16:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -381,10 +357,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-09-15T16:01:02Z",
+      "updated_at": "2026-09-16T14:01:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -405,16 +381,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-09T19:21:10Z",
-      "updated_at": "2026-09-16T08:15:39Z",
+      "updated_at": "2026-09-16T15:52:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 4,
-        "has_new_commits": false
+        "count": 3,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement",
         "approved"
@@ -498,7 +474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-15T21:11:17Z",
-      "updated_at": "2026-09-16T08:22:28Z",
+      "updated_at": "2026-09-16T12:28:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -512,6 +488,50 @@
         "lgtm",
         "approved"
       ]
+    },
+    {
+      "title": "chore: Delete now unused argocd-operator manifests and the make goals using/producing them",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1297",
+      "number": 1297,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-09-16T13:21:14Z",
+      "updated_at": "2026-09-16T13:55:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1298",
+      "number": 1298,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "cjcocokrisp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
+      },
+      "created_at": "2026-09-16T15:02:40Z",
+      "updated_at": "2026-09-16T15:50:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "build(container): Build multi-arch images for release",
@@ -655,13 +675,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-06-11T09:48:57Z",
-      "updated_at": "2026-08-27T11:29:52Z",
+      "updated_at": "2026-09-16T10:46:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
@@ -677,14 +697,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-06-17T18:54:35Z",
-      "updated_at": "2026-08-18T17:58:23Z",
+      "updated_at": "2026-09-16T10:46:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -721,16 +741,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-09-16T08:37:49Z",
-      "updated_at": "2026-09-16T08:54:00Z",
+      "updated_at": "2026-09-16T15:21:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -760,7 +780,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T09:01:17Z",
+    "since": "2026-06-18T15:59:27Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -2329,6 +2349,14 @@
         "reviews": 54,
         "prs": [
           {
+            "title": "clearer instruction to disable default argocd instance",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/412",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 412,
+            "author": "makeittotop",
+            "engaged_at": "2026-09-16T10:08:27Z"
+          },
+          {
             "title": "chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.2",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1285",
             "repo": "redhat-developer/gitops-operator",
@@ -2617,14 +2645,6 @@
             "engaged_at": "2026-07-29T09:41:20Z"
           },
           {
-            "title": "clearer instruction to disable default argocd instance",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/412",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 412,
-            "author": "makeittotop",
-            "engaged_at": "2026-07-29T09:39:27Z"
-          },
-          {
             "title": "chore(deps): update konflux references",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/778",
             "repo": "redhat-developer/gitops-operator",
@@ -2764,7 +2784,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 29,
+        "reviews": 28,
         "prs": [
           {
             "title": "chore(deps): bump argocd from 3.4.7 to 3.4.8",
@@ -2989,14 +3009,6 @@
             "number": 1697,
             "author": "chengfang",
             "engaged_at": "2026-06-22T18:29:58Z"
-          },
-          {
-            "title": "Reapply \"fix: implement git command process cleanup and use context-aware git command execution (#1477)\"; fix: add platform-specific functions for process management syscall (#1541)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1690",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1690,
-            "author": "chengfang",
-            "engaged_at": "2026-06-18T09:11:38Z"
           }
         ]
       },
@@ -3540,16 +3552,8 @@
       },
       {
         "login": "anandf",
-        "reviews": 19,
+        "reviews": 17,
         "prs": [
-          {
-            "title": "feat: create alert rules for constantly syncing GitOps applications",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1288,
-            "author": "aali309",
-            "engaged_at": "2026-09-15T14:48:25Z"
-          },
           {
             "title": "Live: Internalize argocd operator (DO NOT SQUASH-MERGE)",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1286",
@@ -3685,14 +3689,6 @@
             "number": 1184,
             "author": "akhilnittala",
             "engaged_at": "2026-06-23T08:33:28Z"
-          },
-          {
-            "title": "Feat: disable GitOps Service and default instance on xKS clusters",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1172",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1172,
-            "author": "anandrkskd",
-            "engaged_at": "2026-06-18T09:30:30Z"
           }
         ]
       },
@@ -4106,8 +4102,24 @@
       },
       {
         "login": "anandrkskd",
-        "reviews": 3,
+        "reviews": 5,
         "prs": [
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1209,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-16T10:17:46Z"
+          },
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-16T10:16:31Z"
+          },
           {
             "title": "fix: updated otel version to v1.44.0 for fixing CVE-2026-41178",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1283",
