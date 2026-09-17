@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:38:15.935654485Z",
+  "generated_at": "2026-09-17T03:04:00.074870392Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -11,30 +11,6 @@
     }
   },
   "pull_requests": [
-    {
-      "title": "doc: OpenShift argocd CLI client command reference documentation",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/650",
-      "number": 650,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandf",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
-      },
-      "created_at": "2024-01-31T11:00:38Z",
-      "updated_at": "2026-07-29T09:43:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 6,
-      "labels": [
-        "kind/documentation"
-      ]
-    },
     {
       "title": "Run argo-rollouts-manager/plugin E2E tests as part of gitops-operator E2E tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/653",
@@ -84,28 +60,6 @@
       "labels": [
         "do-not-merge/work-in-progress"
       ]
-    },
-    {
-      "title": "Added support for FIPS compliance build",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/829",
-      "number": 829,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandf",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
-      },
-      "created_at": "2025-01-31T07:47:41Z",
-      "updated_at": "2025-09-16T16:48:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Add OLM Install \u0026 Delete Testing",
@@ -357,7 +311,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-09-16T19:48:53Z",
+      "updated_at": "2026-09-17T00:37:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -381,7 +335,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-09T19:21:10Z",
-      "updated_at": "2026-09-16T20:58:23Z",
+      "updated_at": "2026-09-17T02:47:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -500,7 +454,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-16T21:00:51Z",
+      "updated_at": "2026-09-17T00:25:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -522,13 +476,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-16T15:02:40Z",
-      "updated_at": "2026-09-16T21:45:00Z",
+      "updated_at": "2026-09-17T02:13:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -711,28 +665,6 @@
       "labels": []
     },
     {
-      "title": "fix: add events to common application resources cluster role example",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1109",
-      "number": 1109,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-09-12T19:51:49Z",
-      "updated_at": "2026-09-12T20:16:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat: toggle debug settings during runtime",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
       "number": 1111,
@@ -781,7 +713,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T22:36:36Z",
+    "since": "2026-06-19T03:02:34Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -1359,8 +1291,40 @@
       },
       {
         "login": "jannfis",
-        "reviews": 63,
+        "reviews": 67,
         "prs": [
+          {
+            "title": "fix: add events to common application resources cluster role example",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1109",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1109,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-17T02:55:00Z"
+          },
+          {
+            "title": "build(deps): Bump golang.org/x/sync from 0.22.0 to 0.23.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1105",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1105,
+            "author": "dependabot",
+            "engaged_at": "2026-09-17T02:53:00Z"
+          },
+          {
+            "title": "build(deps): Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.45.0 to 1.46.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1094",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1094,
+            "author": "dependabot",
+            "engaged_at": "2026-09-17T02:51:48Z"
+          },
+          {
+            "title": "feat: secure HA admin endpoints with mTLS authentication",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1076,
+            "author": "jparsai",
+            "engaged_at": "2026-09-16T23:49:15Z"
+          },
           {
             "title": "feat: add option to enable tracking annotation/label for CRDs",
             "url": "https://github.com/argoproj/argo-cd/pull/27907",
@@ -3387,8 +3351,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 20,
+        "reviews": 21,
         "prs": [
+          {
+            "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1298",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1298,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-16T23:12:11Z"
+          },
           {
             "title": "feat: secure HA admin endpoints with mTLS authentication",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
@@ -3553,8 +3525,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 17,
+        "reviews": 18,
         "prs": [
+          {
+            "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1298",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1298,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-17T02:01:37Z"
+          },
           {
             "title": "Live: Internalize argocd operator (DO NOT SQUASH-MERGE)",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1286",
