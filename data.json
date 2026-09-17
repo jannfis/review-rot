@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:10:27.348017719Z",
+  "generated_at": "2026-09-17T16:08:42.19085875Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -144,10 +144,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-17T09:05:57Z",
+      "updated_at": "2026-09-17T09:52:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -192,10 +192,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-17T08:58:04Z",
+      "updated_at": "2026-09-17T14:53:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-16T09:47:23Z",
+      "updated_at": "2026-09-17T11:20:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -265,7 +265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-09-17T09:00:15Z",
+      "updated_at": "2026-09-17T09:10:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -275,7 +275,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "lgtm"
+      ]
     },
     {
       "title": "chore(test): Avoid printing test-credentials",
@@ -311,10 +313,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-09-17T08:56:45Z",
+      "updated_at": "2026-09-17T14:02:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -381,17 +383,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-15T14:10:24Z",
+      "updated_at": "2026-09-17T16:05:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "has_new_commits": false
+        "count": 1,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 5,
-      "labels": []
+      "unresolved_conversations": 4,
+      "labels": [
+        "approved"
+      ]
     },
     {
       "title": "chore: add AGENTS.md with E2E test rules",
@@ -403,7 +407,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-15T21:11:17Z",
-      "updated_at": "2026-09-16T12:28:16Z",
+      "updated_at": "2026-09-17T14:17:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -450,7 +454,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-16T15:02:40Z",
-      "updated_at": "2026-09-17T05:38:58Z",
+      "updated_at": "2026-09-17T14:33:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -461,6 +465,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "chore: bring apiservice fix downstream",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1301",
+      "number": 1301,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "cjcocokrisp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
+      },
+      "created_at": "2026-09-17T13:18:15Z",
+      "updated_at": "2026-09-17T13:26:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
+      ]
     },
     {
       "title": "docs: Proposal for multi-tenant repository servers",
@@ -902,10 +930,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-05-07T20:12:45Z",
-      "updated_at": "2026-09-16T18:32:07Z",
+      "updated_at": "2026-09-17T13:22:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1124,19 +1152,69 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-17T07:52:05Z",
-      "updated_at": "2026-09-17T08:56:16Z",
+      "updated_at": "2026-09-17T11:26:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "🟠 Medium blast radius",
         "🕐 Less than 5 minutes"
+      ]
+    },
+    {
+      "title": "chore(deps): bump go.opentelemetry.io/otel from 1.43 to 1.44 (release-3.3)",
+      "url": "https://github.com/argoproj/argo-cd/pull/29763",
+      "number": 29763,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "nmirasch",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
+      },
+      "created_at": "2026-09-17T10:11:07Z",
+      "updated_at": "2026-09-17T13:13:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "🟠 Medium blast radius",
+        "🕐 Less than 10 minutes"
+      ]
+    },
+    {
+      "title": "chore(deps): bump go.opentelemetry.io/otel from 1.43 to 1.44 (release-3.4)",
+      "url": "https://github.com/argoproj/argo-cd/pull/29764",
+      "number": 29764,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "nmirasch",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
+      },
+      "created_at": "2026-09-17T11:19:53Z",
+      "updated_at": "2026-09-17T12:08:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "🕐 10-20 Minutes",
+        "🟠 Medium blast radius"
       ]
     },
     {
@@ -1364,12 +1442,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T09:08:37Z",
+    "since": "2026-06-19T16:07:00Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 71,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "Docs publishing on readthedocs.org",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1294",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1294,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-17T12:19:38Z"
+          },
           {
             "title": "feat: create alert rules for constantly syncing GitOps applications",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
@@ -1942,8 +2028,24 @@
       },
       {
         "login": "jannfis",
-        "reviews": 67,
+        "reviews": 69,
         "prs": [
+          {
+            "title": "build(deps): Bump golang.org/x/crypto from 0.55.0 to 0.57.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1100",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1100,
+            "author": "dependabot",
+            "engaged_at": "2026-09-17T12:51:09Z"
+          },
+          {
+            "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.5",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1106",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1106,
+            "author": "dependabot",
+            "engaged_at": "2026-09-17T12:50:28Z"
+          },
           {
             "title": "fix: add events to common application resources cluster role example",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1109",
@@ -2965,6 +3067,14 @@
         "reviews": 54,
         "prs": [
           {
+            "title": "chore: add AGENTS.md with E2E test rules",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1296,
+            "author": "jgwest",
+            "engaged_at": "2026-09-17T11:53:34Z"
+          },
+          {
             "title": "feat: create alert rules for constantly syncing GitOps applications",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
             "repo": "redhat-developer/gitops-operator",
@@ -2987,14 +3097,6 @@
             "number": 1285,
             "author": "dependabot",
             "engaged_at": "2026-09-16T08:24:01Z"
-          },
-          {
-            "title": "chore: add AGENTS.md with E2E test rules",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1296,
-            "author": "jgwest",
-            "engaged_at": "2026-09-16T08:22:17Z"
           },
           {
             "title": "fix: fail fast for GPG strict mode and shallow repo clone",
@@ -4688,7 +4790,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1278,
             "author": "alkakumari016",
-            "engaged_at": "2026-09-17T09:00:15Z"
+            "engaged_at": "2026-09-17T09:10:23Z"
           },
           {
             "title": "fix: replace non-expiring metrics monitor SA token with TokenRequest",
@@ -4787,6 +4889,28 @@
         ]
       },
       {
+        "login": "cjcocokrisp",
+        "reviews": 2,
+        "prs": [
+          {
+            "title": "fix(promoter): mount writable temporary storage for the controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1302,
+            "author": "jsell-rh",
+            "engaged_at": "2026-09-17T15:58:25Z"
+          },
+          {
+            "title": "chore: adds a short message to health check contributors to update the upgra…",
+            "url": "https://github.com/argoproj/argo-cd/pull/29025",
+            "repo": "argoproj/argo-cd",
+            "number": 29025,
+            "author": "ppapapetrou76",
+            "engaged_at": "2026-08-03T15:51:28Z"
+          }
+        ]
+      },
+      {
         "login": "AdamSaleh",
         "reviews": 1,
         "prs": [
@@ -4824,21 +4948,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1215,
             "author": "tzprograms",
-            "engaged_at": "2026-09-16T05:27:49Z"
-          }
-        ]
-      },
-      {
-        "login": "cjcocokrisp",
-        "reviews": 1,
-        "prs": [
-          {
-            "title": "chore: adds a short message to health check contributors to update the upgra…",
-            "url": "https://github.com/argoproj/argo-cd/pull/29025",
-            "repo": "argoproj/argo-cd",
-            "number": 29025,
-            "author": "ppapapetrou76",
-            "engaged_at": "2026-08-03T15:51:28Z"
+            "engaged_at": "2026-09-17T15:54:17Z"
           }
         ]
       },
