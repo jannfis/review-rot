@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:52:23.063126117Z",
+  "generated_at": "2026-09-18T22:14:38.958111167Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -408,10 +408,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-15T21:11:17Z",
-      "updated_at": "2026-09-17T14:17:59Z",
+      "updated_at": "2026-09-18T21:26:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -443,28 +443,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1298",
-      "number": 1298,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-09-16T15:02:40Z",
-      "updated_at": "2026-09-17T20:16:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -692,7 +670,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-20T18:50:41Z",
+    "since": "2026-06-20T22:12:54Z",
     "reviewers": [
       {
         "login": "jannfis",
@@ -3204,7 +3182,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 22,
+        "reviews": 23,
         "prs": [
           {
             "title": "feat: support custom annotations in principal's service",
@@ -3212,7 +3190,23 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1299,
             "author": "jparsai",
-            "engaged_at": "2026-09-17T20:39:28Z"
+            "engaged_at": "2026-09-18T21:25:19Z"
+          },
+          {
+            "title": "fix: process Delete event for app already deleted on the agent",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1101,
+            "author": "KR-Ravindra",
+            "engaged_at": "2026-09-18T21:19:44Z"
+          },
+          {
+            "title": "feat: secure HA admin endpoints with mTLS authentication",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1076,
+            "author": "jparsai",
+            "engaged_at": "2026-09-18T21:03:06Z"
           },
           {
             "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
@@ -3220,7 +3214,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1298,
             "author": "cjcocokrisp",
-            "engaged_at": "2026-09-17T20:16:36Z"
+            "engaged_at": "2026-09-18T20:40:02Z"
           },
           {
             "title": "chore: bring apiservice fix downstream",
@@ -3229,14 +3223,6 @@
             "number": 1301,
             "author": "cjcocokrisp",
             "engaged_at": "2026-09-17T20:15:59Z"
-          },
-          {
-            "title": "feat: secure HA admin endpoints with mTLS authentication",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1076,
-            "author": "jparsai",
-            "engaged_at": "2026-09-15T23:06:16Z"
           },
           {
             "title": "feat: decouple console plugin from default ArgoCD instance ",
